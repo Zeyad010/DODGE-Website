@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    
+    background-image: url(images/back.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 1528px 518px;
+    background-position: 0px 315px; 
+    
+    
+}
+.main{
+    width: 95%;
+    height: 85%;
+    background-color: rgba(110, 103, 103, 0.8);
+    position: absolute;
+    bottom:30px;
+    left: 50px;
+    border-radius: 20px;
+    background-image: url(images/about.png);
+    background-repeat: no-repeat;
+    background-position: 830px -50px ;
+    background-size: 600px 700px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 16;
+
+
+
+}
+
+.logo {
+
+    width: 200px;
+    height: 140px;
+}
+
+nav {
+    display: flex;
+}
+
+.navigation {
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+    justify-content: space-between;
+    color: aliceblue;
+    transition: 0.8s;
+}
+
+.navigation:hover {
+    transform: scale(1.2);
+    color: rgb(187, 0, 0);
+}
+.contact .text{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.contact .text h1{
+    font-size: 50px;
+    position: absolute;
+    bottom: 300px;
+    /* padding: 30px; */
+    margin: 5px;
+
+}
+.contact .text span{
+    color: rgb(187, 0, 0);
+}
+.contact .text p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}    
+

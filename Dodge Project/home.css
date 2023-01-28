@@ -1,0 +1,195 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 16;
+
+
+
+}
+
+.logo {
+
+    width: 200px;
+    height: 140px;
+}
+
+nav {
+    display: flex;
+}
+
+.navigation {
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+    justify-content: space-between;
+    color: aliceblue;
+    transition: 0.8s;
+}
+
+.navigation:hover {
+    transform: scale(1.2);
+    color: rgb(187, 0, 0);
+}
+
+
+body{
+    background: linear-gradient(rgb(6 6 6),rgb(42 94 176),#4f0704);
+    width: 100%;
+    height: 100vh;
+}
+    
+    
+
+
+.logo{
+    width: 200px;
+    height: 140px;
+    position: absolute;
+    left: -5px;
+    top: -35px;
+}
+.bar{
+    width: 98%;
+    height: 88%;
+    background-color: rgba(0,0,0,1);
+    position: absolute;
+    bottom: 17px;
+    right: 15px;
+    border-radius: 53px;
+    
+}
+ .wall{
+
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 58%;
+    height: 90%;
+
+}
+nav{ 
+        display:flex;
+         justify-content:space-between;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 15px;
+    padding: 25px 10px;
+    text-decoration: none;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.8s;
+    margin: 15px;
+    padding: 0px;
+    font-size:large ;
+} 
+nav ul li a:hover{
+    transform: scale(1.2);
+    color: rgb(187, 0, 0);
+    font-size: larger;
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: -100px 30px;
+    /* padding: 0px 300px ; ->align-items: center;*/
+}
+.contant .text{
+    color: aliceblue;
+    width: 40%;
+    position: absolute;
+    top: 80px;
+
+}
+.contant .text h1{
+    font-size: 41px;
+}
+
+
+.contant .text span{
+    color: red;
+}
+.contant .text h4{
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.contant .text p {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: -2px;
+    position: absolute;
+    top: 172px;
+
+}
+.Discover{
+    position: absolute;
+    top: 460px;
+}
+.Discover a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 15px;
+    background: #ef2c24;
+    color: #080808;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.7s ease;
+
+
+
+
+}
+.Discover a:hover {
+    transform: scale(1.1);
+    color: rgb(229, 229, 229);
+}
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translateX(-50%);
+    display: flex;
+
+
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+
+}
+
+
+.thumb li img {
+    max-width: 60px;
+    transition: 0.5s;
+
+
+}
+
+.thumb li img:hover {
+    transform: translateY(-15px);
+}

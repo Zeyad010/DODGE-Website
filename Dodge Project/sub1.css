@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 16;
+
+
+
+}
+
+.logo {
+
+    width: 200px;
+    height: 140px;
+}
+
+nav {
+    display: flex;
+}
+
+.navigation {
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    color: aliceblue;
+    transition: 0.8s;
+}
+
+.navigation:hover {
+    transform: scale(1.2);
+    color: rgb(187, 0, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background-image: url(images/back.webp);
+    background-repeat: no-repeat;
+    background-position: 0px 317px;
+    background-size: 1580px 518px;
+}
+
+form {
+    padding: 20px;
+    background: #000;
+    border-radius: 50px;
+}
+
+.row {
+
+    display: flex;
+    gap: 20px;
+}
+
+.col-50 {
+
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+    margin: 15px 0px;
+}
+
+span {
+
+    margin-bottom: 10px;
+    display: block;
+    color: #eabd0a;
+
+
+}
+
+input {
+
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    border-radius: 5px;
+
+}
+
+.inputBox {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+input:focus {
+    border: 1px solid #000;
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+img {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.submit-btn {
+
+    width: 100%;
+    background: #27ae60;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.submit-btn:hover {
+    transform: scale(1.1);
+
+
+}
